@@ -28,7 +28,7 @@ Com essa solução, os dados coletados pelos sensores serão armazenados e anali
 
 ## Proposta e Eficiência para o Sistema
 Para tornar o sistema de monitoramento mais inovador e eficiente, adotamos uma abordagem que une precisão, automação e previsões inteligentes. Cada sensor (S1, S2 e S3) traz informações valiosas que não só permitem acompanhar o que está acontecendo no campo, mas também oferecem ações preditivas e uma otimização inteligente dos recursos, garantindo melhores resultados e economia para os agricultores.
-1. ### S1: Sensor de Umidade
+### 1. S1: Sensor de Umidade
 - #### Informações Relevantes:
   - Leitura em tempo real da umidade do solo.
   - Dados históricos de umidade.
@@ -43,7 +43,7 @@ Para tornar o sistema de monitoramento mais inovador e eficiente, adotamos uma a
     - Localização do sensor.
     - Dados meteorológicos.
       
-2. ### S2: Sensor de pH
+### 2. S2: Sensor de pH
 - #### Informações Relevantes:
   - Monitoramento contínuo do pH do solo.
   - Registros históricos das variações de pH.
@@ -58,7 +58,7 @@ Para tornar o sistema de monitoramento mais inovador e eficiente, adotamos uma a
   - Localização do sensor.
   - Registro de aplicações de corretivos.
 
-3. ### S3: Sensor de Nutrientes (NPK)
+### 3. S3: Sensor de Nutrientes (NPK)
 - #### Informações Relevantes:
   - Leitura em tempo real dos níveis de fósforo (P) e potássio (K).
   - Dados históricos sobre a aplicação de nutrientes.
