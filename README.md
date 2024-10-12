@@ -88,18 +88,18 @@ Para tornar o sistema de monitoramento mais inovador e eficiente, adotamos uma a
 Dentre os arquivos presentes na raiz do projeto, definem-se:
 
 1. MER (Modelo Entidade-Relacionamento):
-  Arquivo: mer.dmd
-  Imagem: mer.png
-  O MER representa o modelo lógico do banco de dados, mostrando as entidades principais e seus atributos, bem como os relacionamentos e cardinalidades.
+  - Arquivo: mer.dmd
+  - Imagem: mer.png
+  - O MER representa o modelo lógico do banco de dados, mostrando as entidades principais e seus atributos, bem como os relacionamentos e cardinalidades.
 
 2. DER (Diagrama Entidade-Relacionamento Físico):
-  Arquivo: der.dmd
-  Imagem: der.png
-  O DER descreve o modelo físico do banco de dados, com os tipos de dados e restrições aplicados a cada entidade.
+  - Arquivo: der.dmd
+  - Imagem: der.png
+  - O DER descreve o modelo físico do banco de dados, com os tipos de dados e restrições aplicados a cada entidade.
 
 3. DDL SQL:
-  Arquivo: ddl.sql
-  Contém os comandos SQL para criação das tabelas e relacionamentos no banco de dados Oracle.
+  - Arquivo: ddl.sql
+  - Contém os comandos SQL para criação das tabelas e relacionamentos no banco de dados Oracle.
 
 
 ## 👤 Entidades e Atributos
@@ -170,7 +170,7 @@ Dentre os arquivos presentes na raiz do projeto, definem-se:
 - Um sensor pode gerar várias leituras (Sensor -> Leitura_Sensor).
 
 ### M:N (muitos para muitos)
-= Plantação e Sensores: Um sensor pode estar monitorando várias plantações, e uma plantação pode ter vários sensores.
+- Plantação e Sensores: Um sensor pode estar monitorando várias plantações, e uma plantação pode ter vários sensores.
 - Plantação e Ajustes: Uma plantação pode ter vários ajustes de recursos (como irrigação e nutrientes), e um ajuste pode ser aplicado a várias plantações.
 
 
@@ -182,6 +182,7 @@ Dentre os arquivos presentes na raiz do projeto, definem-se:
 ### Chaves Estrangeiras:
 - Definidas para conectar as tabelas e garantir a integridade referencial.
 - Exemplos: id_produtor em Plantacao, id_plantacao em Sensor.
+
 
 ## 📋 Conclusão:
 Este projeto fornece MER e DER para o sistema de sensoriamento da FarmTech Solutions, possibilitando o monitoramento eficiente das plantações e o ajuste inteligente de recursos, como água e nutrientes. Ao utilizar relacionamentos 1:N e M:N, estruturamos o banco de dados de forma otimizada, com todas as chaves primárias e estrangeiras corretamente configuradas, garantindo a integridade e confiabilidade dos dados ao longo do tempo. Essa estrutura robusta assegura que o sistema funcione de maneira ágil e precisa, permitindo tomadas de decisão mais rápidas e assertivas.
