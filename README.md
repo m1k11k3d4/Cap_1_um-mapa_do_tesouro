@@ -26,7 +26,7 @@ A FarmTech Solutions está criando uma solução inovadora para ajudar os agricu
 
 Com essa solução, os dados coletados pelos sensores serão armazenados e analisados em um banco de dados inteligente, o que permitirá aos agricultores tomar decisões mais eficientes com base no histórico das plantações. O objetivo é facilitar o gerenciamento das fazendas, economizar recursos e aumentar a produtividade de forma sustentável.
 
-## Proposta e Eficiência para o Sistema
+## ✅ Proposta e Eficiência para o Sistema
 Para tornar o sistema de monitoramento mais inovador e eficiente, adotamos uma abordagem que une precisão, automação e previsões inteligentes. Cada sensor (S1, S2 e S3) traz informações valiosas que não só permitem acompanhar o que está acontecendo no campo, mas também oferecem ações preditivas e uma otimização inteligente dos recursos, garantindo melhores resultados e economia para os agricultores.
 ### 1. S1: Sensor de Umidade
 - #### Informações Relevantes:
